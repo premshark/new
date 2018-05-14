@@ -1,2 +1,2 @@
-# new
-simple php application 
+# Tomcat
+Tomcat application with particular configuration 
