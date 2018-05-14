@@ -12,7 +12,6 @@
 		}]
 	}],
 
-	"networkMode": "host",
 	"family": "test",
 	"taskRoleArn": "arn:aws:iam::466749146115:role/ECSEC2JensinsRole"
 }
