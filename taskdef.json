@@ -1,13 +1,19 @@
 {
-    "containerDefinitions": [
+   "containerDefinitions": [
         {
-            "name": "test",
-            "image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:latest",
             "essential": true,
-            "cpu":1024,
-            "memory":300
-        }
-    ],
+            "name": "tomcat",
+            "image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:latest",
+            "memory": 2048,
+            "cpu": 1024,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 8080,
+                    "protocol": "tcp"
+                }
+               ] 
+    ],          
     
     "networkMode":"host",
     "family": "test",
