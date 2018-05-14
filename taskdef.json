@@ -1,21 +1,18 @@
 {
-   "containerDefinitions": [
-        {
-            "essential": true,
-            "name": "tomcat",
-            "image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:latest",
-            "memory": 2048,
-            "cpu": 1024,
-            "portMappings": [
-                {
-                    "hostPort": 80,
-                    "containerPort": 8080,
-                    "protocol": "tcp"
-                }
-               ], 
-    ],          
-    
-    "networkMode":"host",
-    "family": "test",
-    "taskRoleArn": "arn:aws:iam::466749146115:role/ECSEC2JensinsRole"
+	"containerDefinitions": [{
+		"essential": true,
+		"name": "tomcat",
+		"image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:latest",
+		"memory": 2048,
+		"cpu": 1024,
+		"portMappings": [{
+			"hostPort": 80,
+			"containerPort": 8080,
+			"protocol": "tcp"
+		}]
+	}],
+
+	"networkMode": "host",
+	"family": "test",
+	"taskRoleArn": "arn:aws:iam::466749146115:role/ECSEC2JensinsRole"
 }
