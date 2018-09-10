@@ -3,6 +3,6 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
           version="1.0">
-    <user username="prem" password="rit@1234" roles="manager-gui,manager-script"/>
+    <user username="8kmiles" password="8kmiles@123" roles="manager-gui,manager-script"/>
     <user username="admin" password="pass" roles="admin-gui"/>
 </tomcat-users>
